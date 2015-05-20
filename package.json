@@ -1,0 +1,38 @@
+{
+  "name": "gulp-kramdown",
+  "version": "0.5.0",
+  "description": "Kramdown to HTML",
+  "license": "MIT",
+  "repository": "stringparser/gulp-kramdown",
+  "author": {
+    "name": "Javier Carrillo Milla",
+    "email": "stringparser@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "kramdown",
+    "kramed",
+    "md",
+    "compile",
+    "convert",
+    "markup",
+    "html"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "kramed": "^0.4.6",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
